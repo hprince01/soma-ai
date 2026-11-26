@@ -1,0 +1,18 @@
+[
+ {
+  "features": "char_wb 3-5, 60000",
+  "val_acc": 0.8982,
+  "val_macro_f1": 0.7948,
+  "test_acc": 0.7167,
+  "test_macro_f1": 0.5744,
+  "seconds": 116
+ },
+ {
+  "features": "char_wb 2-4, 40000",
+  "val_acc": 0.8946,
+  "val_macro_f1": 0.7945,
+  "test_acc": 0.7036,
+  "test_macro_f1": 0.5605,
+  "seconds": 101
+ }
+]

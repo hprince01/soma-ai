@@ -1,0 +1,657 @@
+{
+ "model": "Logistic Regression (C=5, balanced)",
+ "ngram": [
+  1,
+  2
+ ],
+ "max_features": 20000,
+ "test_accuracy": 0.6906,
+ "test_macro_f1": 0.5393,
+ "test_weighted_f1": 0.688,
+ "per_class": {
+  "politics": {
+   "precision": 0.6637,
+   "recall": 0.6697,
+   "f1-score": 0.6667,
+   "support": 442.0
+  },
+  "sport": {
+   "precision": 0.9456,
+   "recall": 0.92,
+   "f1-score": 0.9326,
+   "support": 812.0
+  },
+  "economy": {
+   "precision": 0.4462,
+   "recall": 0.6351,
+   "f1-score": 0.5242,
+   "support": 222.0
+  },
+  "health": {
+   "precision": 0.4625,
+   "recall": 0.7719,
+   "f1-score": 0.5785,
+   "support": 320.0
+  },
+  "entertainment": {
+   "precision": 0.7922,
+   "recall": 0.7642,
+   "f1-score": 0.7779,
+   "support": 848.0
+  },
+  "history": {
+   "precision": 0.0568,
+   "recall": 0.8333,
+   "f1-score": 0.1064,
+   "support": 12.0
+  },
+  "technology": {
+   "precision": 0.5459,
+   "recall": 0.7829,
+   "f1-score": 0.6432,
+   "support": 152.0
+  },
+  "tourism": {
+   "precision": 0.8,
+   "recall": 0.3684,
+   "f1-score": 0.5045,
+   "support": 152.0
+  },
+  "culture": {
+   "precision": 0.6923,
+   "recall": 0.1773,
+   "f1-score": 0.2824,
+   "support": 203.0
+  },
+  "fashion": {
+   "precision": 0.9155,
+   "recall": 0.4305,
+   "f1-score": 0.5856,
+   "support": 151.0
+  },
+  "religion": {
+   "precision": 0.829,
+   "recall": 0.6657,
+   "f1-score": 0.7384,
+   "support": 335.0
+  },
+  "environment": {
+   "precision": 1.0,
+   "recall": 0.1771,
+   "f1-score": 0.301,
+   "support": 175.0
+  },
+  "education": {
+   "precision": 0.2069,
+   "recall": 0.0857,
+   "f1-score": 0.1212,
+   "support": 70.0
+  },
+  "relationship": {
+   "precision": 0.7212,
+   "recall": 0.8694,
+   "f1-score": 0.7884,
+   "support": 360.0
+  }
+ },
+ "confusion_matrix": [
+  [
+   296,
+   4,
+   26,
+   30,
+   10,
+   41,
+   10,
+   1,
+   9,
+   0,
+   7,
+   0,
+   5,
+   3
+  ],
+  [
+   17,
+   747,
+   10,
+   14,
+   19,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2
+  ],
+  [
+   16,
+   2,
+   141,
+   3,
+   4,
+   3,
+   45,
+   2,
+   0,
+   0,
+   1,
+   0,
+   1,
+   4
+  ],
+  [
+   22,
+   0,
+   5,
+   247,
+   14,
+   3,
+   1,
+   0,
+   0,
+   0,
+   1,
+   0,
+   1,
+   26
+  ],
+  [
+   19,
+   16,
+   10,
+   94,
+   648,
+   13,
+   0,
+   0,
+   2,
+   6,
+   17,
+   0,
+   0,
+   23
+  ],
+  [
+   1,
+   0,
+   0,
+   1,
+   0,
+   10,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   9,
+   8,
+   7,
+   3,
+   119,
+   0,
+   0,
+   0,
+   0,
+   0,
+   6,
+   0
+  ],
+  [
+   5,
+   16,
+   43,
+   8,
+   8,
+   8,
+   5,
+   56,
+   2,
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   23,
+   2,
+   3,
+   9,
+   15,
+   81,
+   1,
+   1,
+   36,
+   0,
+   11,
+   0,
+   5,
+   16
+  ],
+  [
+   1,
+   0,
+   10,
+   0,
+   66,
+   0,
+   4,
+   0,
+   2,
+   65,
+   0,
+   0,
+   0,
+   3
+  ],
+  [
+   28,
+   2,
+   10,
+   39,
+   15,
+   8,
+   0,
+   0,
+   0,
+   0,
+   223,
+   0,
+   2,
+   8
+  ],
+  [
+   13,
+   0,
+   48,
+   37,
+   4,
+   0,
+   28,
+   10,
+   0,
+   0,
+   3,
+   31,
+   0,
+   1
+  ],
+  [
+   2,
+   0,
+   1,
+   9,
+   6,
+   5,
+   3,
+   0,
+   0,
+   0,
+   3,
+   0,
+   6,
+   35
+  ],
+  [
+   3,
+   1,
+   0,
+   35,
+   2,
+   1,
+   0,
+   0,
+   1,
+   0,
+   3,
+   0,
+   1,
+   313
+  ]
+ ],
+ "comparison": [
+  {
+   "model": "Complement Naive Bayes",
+   "ngram": [
+    1,
+    1
+   ],
+   "max_features": 40000,
+   "val_macro_f1": 0.6626,
+   "val_acc": 0.8668,
+   "test_acc": 0.6768,
+   "test_macro_f1": 0.4283
+  },
+  {
+   "model": "Linear SVM",
+   "ngram": [
+    1,
+    2
+   ],
+   "max_features": 20000,
+   "val_macro_f1": 0.8139,
+   "val_acc": 0.9005,
+   "test_acc": 0.7099,
+   "test_macro_f1": 0.5467
+  },
+  {
+   "model": "Logistic Regression (C=5, balanced)",
+   "ngram": [
+    1,
+    2
+   ],
+   "max_features": 40000,
+   "val_macro_f1": 0.8132,
+   "val_acc": 0.8946,
+   "test_acc": 0.6937,
+   "test_macro_f1": 0.5443
+  }
+ ],
+ "validation_runs": [
+  {
+   "model": "Complement Naive Bayes",
+   "ngram": [
+    1,
+    1
+   ],
+   "max_features": 20000,
+   "val_acc": 0.8656482569526048,
+   "val_macro_f1": 0.6588289030977259
+  },
+  {
+   "model": "Linear SVM",
+   "ngram": [
+    1,
+    1
+   ],
+   "max_features": 20000,
+   "val_acc": 0.8934586760673717,
+   "val_macro_f1": 0.7890361365521905
+  },
+  {
+   "model": "Logistic Regression (C=5)",
+   "ngram": [
+    1,
+    1
+   ],
+   "max_features": 20000,
+   "val_acc": 0.8969839404622013,
+   "val_macro_f1": 0.7395403019842932
+  },
+  {
+   "model": "Logistic Regression (C=5, balanced)",
+   "ngram": [
+    1,
+    1
+   ],
+   "max_features": 20000,
+   "val_acc": 0.8907168037602821,
+   "val_macro_f1": 0.7827884144575504
+  },
+  {
+   "model": "Logistic Regression (C=20)",
+   "ngram": [
+    1,
+    1
+   ],
+   "max_features": 20000,
+   "val_acc": 0.8942420681551116,
+   "val_macro_f1": 0.7564955411993038
+  },
+  {
+   "model": "Logistic Regression (C=20, balanced)",
+   "ngram": [
+    1,
+    1
+   ],
+   "max_features": 20000,
+   "val_acc": 0.8930669800235017,
+   "val_macro_f1": 0.7897358560708768
+  },
+  {
+   "model": "Complement Naive Bayes",
+   "ngram": [
+    1,
+    1
+   ],
+   "max_features": 40000,
+   "val_acc": 0.8668233450842147,
+   "val_macro_f1": 0.6626163509831156
+  },
+  {
+   "model": "Linear SVM",
+   "ngram": [
+    1,
+    1
+   ],
+   "max_features": 40000,
+   "val_acc": 0.8938503721112416,
+   "val_macro_f1": 0.7883557528240143
+  },
+  {
+   "model": "Logistic Regression (C=5)",
+   "ngram": [
+    1,
+    1
+   ],
+   "max_features": 40000,
+   "val_acc": 0.8954171562867215,
+   "val_macro_f1": 0.7389012449307678
+  },
+  {
+   "model": "Logistic Regression (C=5, balanced)",
+   "ngram": [
+    1,
+    1
+   ],
+   "max_features": 40000,
+   "val_acc": 0.8930669800235017,
+   "val_macro_f1": 0.7941406196291156
+  },
+  {
+   "model": "Logistic Regression (C=20)",
+   "ngram": [
+    1,
+    1
+   ],
+   "max_features": 40000,
+   "val_acc": 0.8958088523305915,
+   "val_macro_f1": 0.7700048902753958
+  },
+  {
+   "model": "Logistic Regression (C=20, balanced)",
+   "ngram": [
+    1,
+    1
+   ],
+   "max_features": 40000,
+   "val_acc": 0.8950254602428516,
+   "val_macro_f1": 0.7963794246805955
+  },
+  {
+   "model": "Complement Naive Bayes",
+   "ngram": [
+    1,
+    2
+   ],
+   "max_features": 20000,
+   "val_acc": 0.8578143360752056,
+   "val_macro_f1": 0.6286764197872221
+  },
+  {
+   "model": "Linear SVM",
+   "ngram": [
+    1,
+    2
+   ],
+   "max_features": 20000,
+   "val_acc": 0.9005092048570309,
+   "val_macro_f1": 0.8138926892918695
+  },
+  {
+   "model": "Logistic Regression (C=5)",
+   "ngram": [
+    1,
+    2
+   ],
+   "max_features": 20000,
+   "val_acc": 0.8934586760673717,
+   "val_macro_f1": 0.7509241016670746
+  },
+  {
+   "model": "Logistic Regression (C=5, balanced)",
+   "ngram": [
+    1,
+    2
+   ],
+   "max_features": 20000,
+   "val_acc": 0.8954171562867215,
+   "val_macro_f1": 0.8111999407838477
+  },
+  {
+   "model": "Logistic Regression (C=20)",
+   "ngram": [
+    1,
+    2
+   ],
+   "max_features": 20000,
+   "val_acc": 0.8907168037602821,
+   "val_macro_f1": 0.7480049723568637
+  },
+  {
+   "model": "Logistic Regression (C=20, balanced)",
+   "ngram": [
+    1,
+    2
+   ],
+   "max_features": 20000,
+   "val_acc": 0.8969839404622013,
+   "val_macro_f1": 0.8022068810027908
+  },
+  {
+   "model": "Complement Naive Bayes",
+   "ngram": [
+    1,
+    2
+   ],
+   "max_features": 40000,
+   "val_acc": 0.8574226400313357,
+   "val_macro_f1": 0.6242645496359269
+  },
+  {
+   "model": "Linear SVM",
+   "ngram": [
+    1,
+    2
+   ],
+   "max_features": 40000,
+   "val_acc": 0.899725812769291,
+   "val_macro_f1": 0.8133165221426292
+  },
+  {
+   "model": "Logistic Regression (C=5)",
+   "ngram": [
+    1,
+    2
+   ],
+   "max_features": 40000,
+   "val_acc": 0.8926752839796318,
+   "val_macro_f1": 0.7476979858261086
+  },
+  {
+   "model": "Logistic Regression (C=5, balanced)",
+   "ngram": [
+    1,
+    2
+   ],
+   "max_features": 40000,
+   "val_acc": 0.8946337641989816,
+   "val_macro_f1": 0.8132464043146949
+  },
+  {
+   "model": "Logistic Regression (C=20)",
+   "ngram": [
+    1,
+    2
+   ],
+   "max_features": 40000,
+   "val_acc": 0.8942420681551116,
+   "val_macro_f1": 0.7518097153506301
+  },
+  {
+   "model": "Logistic Regression (C=20, balanced)",
+   "ngram": [
+    1,
+    2
+   ],
+   "max_features": 40000,
+   "val_acc": 0.8962005483744614,
+   "val_macro_f1": 0.8062689682280053
+  }
+ ],
+ "train_counts": [
+  4466,
+  2292,
+  4196,
+  1594,
+  2381,
+  244,
+  287,
+  226,
+  233,
+  54,
+  447,
+  38,
+  116,
+  440
+ ],
+ "test_counts": [
+  442,
+  812,
+  222,
+  320,
+  848,
+  12,
+  152,
+  152,
+  203,
+  151,
+  335,
+  175,
+  70,
+  360
+ ],
+ "n_train": 17014,
+ "n_test": 4254,
+ "seconds": 184.7,
+ "val_accuracy": 0.8954,
+ "val_macro_f1": 0.8112,
+ "sources": {
+  "train": {
+   "kigalitoday.com": 9521,
+   "muhabura.rw": 1907,
+   "ukwezi.rw": 1824,
+   "indatwa.org": 768,
+   "bwiza.com": 717,
+   "rwandamagazine.com": 543,
+   "radiotv10.rw": 413,
+   "umuryango.rw": 251
+  },
+  "test": {
+   "igihe.com": 1918,
+   "muhabura.rw": 1665,
+   "kigalipost.com": 671
+  }
+ }
+}
