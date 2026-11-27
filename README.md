@@ -1,6 +1,6 @@
 # ☀️ Soma AI — Kinyarwanda News Topic Classifier
 
-**Live demo → [hprince01.github.io/projects/soma-ai](https://hprince01.github.io/projects/soma-ai/)**
+**Live demo → [princehirwa.pages.dev/projects/soma-ai](https://princehirwa.pages.dev/projects/soma-ai/)**
 
 *Soma* means **“read”** in Kinyarwanda. Soma AI reads Kinyarwanda news text and predicts its topic (politics, sport, economy, health, …), highlighting the words that drove each decision. It was trained in Python on **21,268 real articles from 20 Rwandan news sources**, and the trained model runs **entirely in the browser** in plain JavaScript: no server, and user text never leaves the device.
 
@@ -57,4 +57,4 @@ Outputs: `results/metrics.json` (all scores, per-class report, confusion matrix)
 **KINNEWS**: R. A. Niyongabo, H. Qu, J. Kreutzer, L. Huang. *KINNEWS and KIRNEWS: Benchmarking Cross-Lingual Text Classification for Kinyarwanda and Kirundi.* COLING 2020. [arXiv:2010.12174](https://arxiv.org/abs/2010.12174) · MIT licence. Article copyrights belong to the original news sources; this repository does **not** redistribute the articles (use `get_data.sh`).
 
 ---
-Built by **Prince Hirwa Rutagengwa · [Kai Labs](https://hprince01.github.io/)**, Kigali, Rwanda.
+Built by **Prince Hirwa Rutagengwa · [Kai Labs](https://princehirwa.pages.dev/)**, Kigali, Rwanda.
